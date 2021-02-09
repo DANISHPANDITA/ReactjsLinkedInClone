@@ -46,14 +46,11 @@ function Register() {
             var progress = Math.floor(
               (snapshot.bytesTransferred / snapshot.totalBytes) * 100
             );
-            console.log("Upload is " + progress + "% done");
             setprogress(progress);
             switch (snapshot.state) {
               case firebase.storage.TaskState.PAUSED:
-                console.log("Upload is paused");
                 break;
               case firebase.storage.TaskState.RUNNING:
-                console.log("Upload is running");
                 break;
               default:
                 console.log("..");
