@@ -1,0 +1,88 @@
+.FeedPost {
+  background-color: white;
+  width: 95%;
+  border-radius: 10px;
+}
+.postHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.postHeaderLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.postAvatar {
+  margin: 0.5vw 0.1vw 0vw 0.5vw;
+}
+.posterName {
+  margin: 1vh 0vh 0.5vh 0.5vh;
+}
+.posterTime {
+  margin: 0vh 0vh 0.5vh 0.5vh;
+  font-size: 12px;
+  font-family: "system-ui";
+  color: #5e5e5e;
+}
+.postText {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "system-ui";
+  margin-left: 0.5vw;
+}
+.postLikes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #5e5e5e;
+  margin-left: 0.7vw;
+  border-bottom: 1px solid #f4f2ef;
+}
+.postLikes p {
+  font-size: 12px;
+  font-family: "system-ui";
+}
+.postFooterIcon {
+  height: 16px !important;
+  width: 16px !important;
+}
+.postLikes:hover {
+  color: #4677ff;
+  cursor: pointer;
+}
+.footerPost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0vw 1vw 0vw 0.5vw;
+  border-radius: 7px;
+  color: #5e5e5e;
+  margin-bottom: 1vh;
+}
+.footerPost:hover {
+  cursor: pointer;
+  background-color: #d4d4d4;
+  transition: ease-in-out 200ms;
+}
+.postFooters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0.3vw;
+}
+.footerPost p {
+  font-size: 14px;
+  font-family: "system-ui";
+  font-weight: 400;
+  color: #5e5e5e;
+  margin-left: 0.3vw;
+}
+.imageMediaPost {
+  margin-left: 1vw;
+  height: 45vh;
+  width: 90%;
+
+  border-radius: 10px;
+}

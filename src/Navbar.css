@@ -1,0 +1,79 @@
+.navbar {
+  flex: 0.1;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.NavBarLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.linkedinLogo {
+  height: 35px;
+  width: auto;
+  margin-left: 14vw;
+}
+.search_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 35px;
+  width: 35vw;
+  border-radius: 5px;
+  margin-left: 0.5vw;
+}
+.searchIcon {
+  padding: 9px 0px 9px 0px;
+  background-color: #eef3f8;
+  color: #3e3e3f;
+  height: 20px !important;
+  width: 20px !important;
+  padding-left: 1vw;
+  border-radius: 5px 0px 0px 5px;
+}
+.searchBar {
+  border: none;
+  outline: none;
+  font-family: "system-ui";
+  font-size: 16px;
+  font-weight: 400;
+  height: 35px;
+  width: 15vw;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #eef3f8;
+  color: grey;
+}
+.searchBar:focus {
+  width: 100%;
+  transition: ease-in-out 300ms;
+}
+
+.NavBarIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.avatarNav {
+  margin-left: 1vw;
+  padding-right: 2.2vw;
+  border-right: 1px #ebebeb solid;
+}
+.Logoavatar {
+  margin-top: 1.5vh;
+  height: 20px !important;
+  width: 20px !important;
+}
+.avatarNavText {
+  margin-top: 0.2vh;
+  font-family: "system-ui";
+  font-size: 12px;
+  font-weight: 400;
+}
+.avatarNav:hover {
+  cursor: pointer;
+}

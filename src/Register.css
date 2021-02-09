@@ -1,0 +1,72 @@
+.registerPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+}
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.RegisterLogo {
+  height: 15vh;
+  width: auto;
+}
+.NameRegister {
+  height: 3vh;
+  width: 15vw;
+}
+.EmailRegister {
+  margin-top: 0.5vh;
+  height: 3vh;
+  width: 15vw;
+}
+.setPassword {
+  margin-top: 0.5vh;
+  height: 3vh;
+  width: 15vw;
+}
+.RegisterButton {
+  height: 3.5vh;
+  width: 15.5vw;
+  margin-top: 0.7vh;
+  background-color: #0073af;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "system-ui";
+  color: rgb(31, 31, 31);
+}
+.RegisterButton:hover {
+  cursor: pointer;
+  background-color: #015d9b;
+  transition: ease-in-out 150ms;
+}
+.fileinput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.fileInputIconPhoto {
+  height: 2.5vh !important;
+  width: auto !important;
+  color: #0584c9;
+}
+.fileinput p {
+  color: #0584c9;
+  font-size: 0.9em;
+  font-weight: 600;
+  font-family: "system-ui";
+}
+.fileinput p:hover {
+  cursor: pointer;
+  color: #015d9b;
+  transition: ease-in-out 200ms;
+}
+.errorField {
+  font-size: 0.7em;
+  font-weight: 600;
+  font-family: "system-ui";
+  color: rgb(189, 7, 7);
+}
